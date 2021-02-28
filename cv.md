@@ -1,9 +1,9 @@
-Posohov Andrey
-Telegram LinkedIn fessysys911@gmail.com
+# Posohov Andrey #  
+*[Telegram](https://t.me/gifnameone)* *[LinkedIn](https://www.linkedin.com/in/andery-posohov-291111202)* *fessysys911@gmail.com*  
 
 I want to work as a front-end developer and develop in this area. My priority is to understand the React library and Vue.js. Hard-working looking for an oportunity to improve my skills at work. I have no work experience in this area. I study the front end technology myself. I like study front-end technology and discover new for yourself.
 
-My slills: JS, CSS, HTML5, БЭМ, Git, Lodash, Bootstrap, Visual Studio Code
+My slills: __JS, CSS, HTML5, BEM, Git, Lodash, Bootstrap, Visual Studio Code__  
 
 Code example:
 
