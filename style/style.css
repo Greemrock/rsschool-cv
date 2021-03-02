@@ -1,103 +1,116 @@
 body {
-  font-size: 1rem;
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;    color: #333;
-  background: #fff;
-  color: #939393;
-  margin: 0;
+	font-size: 1rem;
+	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;    color: #333;
+	background: #fff;
+	color: #939393;
+	margin: 0;
 }
 
 .header {
-  max-width: 880px;
-  margin: 0 auto;
+	max-width: 880px;
+	margin: 0 auto;
 }
 
 .avatar {
-  display: flex;
-  justify-content: center;
-  padding: 3rem 4rem 1rem;
+	display: flex;
+	justify-content: center;
+	padding: 3rem 4rem 1rem;
 }
 
 .social-buttons {
-  padding: 0 1rem 1.5rem;
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
+	padding: 0 1rem 1.5rem;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0;
 }
 
 .social-buttons__link {
-  padding: 5px 20px;
-  color: #939393
+	padding: 5px 20px;
 }
 
 .title {
-  font-size: 3rem;
-  line-height: 0.9;
-  padding: 1rem 3rem 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	font-size: 3rem;
+	line-height: 0.9;
+	padding: 1rem 3rem 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .title__name {
-  text-transform: lowercase;
-  font-weight: 300;
-  box-sizing: inherit;
-  font-size: 3rem;
-  color: #939393;
-  padding-top: 0.5rem;
+	text-transform: lowercase;
+	font-weight: 300;
+	box-sizing: inherit;
+	font-size: 3rem;
+	color: #939393;
+	padding-top: 0.5rem;
 }
 
 .title__surname {
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #F8BB10;
-  padding-top: 0.5rem;
+	text-transform: uppercase;
+	color: #F8BB10;
+	padding-top: 0.5rem;
 }
 
 .title__sub-title {
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 0.9rem;
-  padding-top: 1rem;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 0.9rem;
+	padding-top: 1rem;
 }
 
 .about-me {
-  max-width: 880px;
-  margin: 0 auto;
+	max-width: 880px;
+	margin: 0 auto;
 }
 
 .section__line {
-  margin: auto;
-  height: 2px;
-  color: #ccc;
-  background: #ccc;
-  font-size: 0;
-  border: 0;
+	margin: auto;
+	height: 2px;
+	color: #ccc;
+	background: #ccc;
+	font-size: 0;
+	border: 0;
 }
 
 .section {
-  padding: 0 2rem;
-  line-height: 1.75;
+	padding: 0 2rem;
+	line-height: 1.75;
 }
 
 .section__content h4 {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .skills {
-  margin-top: 0;
-  margin-bottom: 1em;
+	margin: 0;
+	padding-bottom: 1em;
 }
 
 .code {
-  overflow: auto;
-  color: #ffa5a5
+	overflow: auto;
+	color: #ffa5a5;
+	margin: 0;
 }
 
 .footer {
-  max-width: 880px;
-  margin: auto;
+	max-width: 880px;
+	margin: auto;
 }
 
 .footer .social-buttons {
-  padding: 1rem 0;
+	padding: 1rem 0;
+}
+
+.link:hover {
+	filter: invert(66%) sepia(92%) saturate(457%) hue-rotate(356deg) brightness(101%) contrast(95%);
+}
+
+.hover {
+	transition-duration: 0.5s;
+	box-shadow: 0 0 9px 9px white inset;
+}
+
+.hover:hover {
+	background-color: #f3f3f3;
 }
