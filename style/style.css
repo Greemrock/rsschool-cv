@@ -21,6 +21,7 @@ body {
   padding: 0 1rem 1.5rem;
   display: flex;
   justify-content: center;
+  list-style-type: none;
 }
 
 .social-buttons__link {
@@ -76,6 +77,15 @@ body {
 .section {
   padding: 0 2rem;
   line-height: 1.75;
+}
+
+.section__content h4 {
+  margin-bottom: 0;
+}
+
+.skills {
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 
 .code {
